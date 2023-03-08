@@ -96,11 +96,13 @@ button {
   overflow: hidden;
   min-width: 300px;
   min-height: 300px;
-
+  max-width: 100vh;
+  max-height: 100vh;
 }
 
 #forefront {
   position: absolute;
+  z-index: 1;
   left: 0;
   top: 0;
   width: 95%;
